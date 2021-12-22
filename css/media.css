@@ -1,0 +1,415 @@
+@media(max-width:1500px){
+    .header{
+        padding-bottom: 150px;
+    }
+}
+@media(max-width:1250px){
+    .header{
+        padding-bottom: 100px;
+    }
+}
+@media(max-width:1200px){
+    
+    .header{
+          padding-bottom: 0px;         
+    }
+    .cata_title{
+        margin-top: 140px;
+    }
+    .imges{
+        width: 95% !important;
+    }
+    .cata_img{
+        position: static;
+    }
+
+}
+@media(max-width:1170px){
+    .cata_title{
+        font-size: 35px;
+    }
+    .cata_text{
+        font-size: 18px;
+        width: 380px;
+    }
+    .cata_link{
+        width: 255px;
+        height: 64px;
+    }
+    .back{
+        padding-bottom: 80px;
+    }
+    .sectiontwo_title{
+        padding-top: 80px;
+    }
+    .textt{
+        padding: 20px 0 50px 0;
+    }
+    .section-2{
+        padding-bottom: 75px;
+    }
+    .section-3{
+        padding-bottom: 75px;
+    }
+    .section-4{
+        padding-bottom: 75px;
+    }
+
+    .boxend{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media(max-width:1000px){
+    .section-2{
+        padding-bottom: 45px;
+    }
+    .section-3{
+        padding-bottom: 50px;
+    }
+    .section-4{
+        padding-bottom: 50px;
+    }
+    .receipt_window{
+       width: 600px;
+       height: 380px;
+    }
+    .receipt_window_img{
+        width: 45%;
+    }
+    .window_title{
+        font-size: 25px;
+
+    }
+    .window_text{
+        font-size: 18px;
+        margin-top: 27px;
+        margin-bottom: 30px;
+        line-height: 22px;
+
+    }
+    .box__input_window{
+        width: 280px;
+        height: 54px;
+
+    }
+    .window_btn{
+        width: 180px;
+        height: 45px;
+        margin-bottom: 33px;
+    }
+    
+}
+
+@media(max-width:730px){
+    .receipt_window{
+       width: 500px;
+       height: 300px;
+       padding: 25px;
+       justify-content: space-between;
+    }
+    .receipt_window_img{
+        width: 40%;
+    }
+    .window_title{
+        font-size: 20px;
+
+    }
+    .window_text{
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        line-height: 20px;
+
+    }
+    .box__input_window{
+        width: 200px;
+        height: 48px;
+        font-size: 10px;
+
+    }
+    .window_btn{
+        width: 130px;
+        height: 40px;
+        margin-bottom: 15px;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .receipt_window_texts{
+        padding-left: 30px;
+    }
+    .window_span{
+        font-size: 14px;
+    }
+
+    .boxend_item{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    
+    .boxend_item_title{
+        margin-top: 20px;
+    }
+   
+}
+
+@media(max-width:700px){
+    .footer{
+        padding-bottom: 100px;
+        padding-top: 60px;
+    }
+    .footer__box{
+        transform: translateY(20px);
+    }
+    .footer_one{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer_titles{
+        text-align: center;
+    }
+    .cata_title{
+        width: 90%;
+        margin: auto;
+         text-align: center;
+         font-size: 35px;
+           line-height: 40px;
+        margin-top: 135px;
+        
+    }
+    .cata_text{
+        width: 80%;
+        margin: 15px auto;
+        text-align: center;
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .cata_link{
+        width: 45%;
+        margin: auto;
+        height: 55px;
+        font-size: 17px;
+    }
+
+
+     .sectiontwo_title{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    
+    
+    .section-title{
+        padding: 70px 0px 60px 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .section_3_title{
+        font-size: 30px; 
+        padding-top: 60px;
+        line-height: 32px;
+        
+    }
+    .back{
+        padding-bottom: 70px;
+    }
+    .textt, .texttt{
+        width: 90%;
+        padding: 10px 0 40px 0;
+        font-size: 17px;
+    }
+    .section-2{
+        padding-bottom: 30px;
+    }
+    .section-3{
+        padding-bottom: 35px;
+    }
+    .section-4{
+        padding-bottom: 35px;
+    }
+}
+@media(max-width:600px){
+    .box-4__item{
+        flex-direction: column;
+        width: 100%;
+    }
+    .item-texts{
+        width: 100%;
+        margin: 0;
+        padding: 0 25px;
+    }
+}
+@media(max-width:560px){
+    .footer{
+        padding-bottom: 60px;
+       
+    }
+    .textt, .texttt{
+        font-size: 15px;
+    }
+    .nav_tel{
+        display: none;
+    }
+    .cata_title{
+        margin-top: 100px;
+    }
+    .section-2{
+        padding-bottom: 20px;
+    }
+    .section-3{
+        padding-bottom: 30px;
+    }
+    .section-4{
+        padding-bottom: 25px;
+    }
+
+
+       .receipt_window{
+       width: 350px;
+       height: 220px;
+       padding: 25px;
+       justify-content: space-between;
+    }
+    .receipt_window_img{
+        width: 40%;
+    }
+    .window_title{
+        font-size: 16px;
+        height: 25px;
+        margin-top: 5px;
+
+    }
+    .window_text{
+        font-size: 14px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        line-height: 18px;
+        width: 100%;
+
+    }
+    .box__input_window{
+        width: 140px;
+        height: 35px;
+        font-size: 9px;
+
+    }
+    .window_btn{
+        width: 100px;
+        height: 30px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 8px;
+        
+    }
+    .clone i{
+        top: 5px;
+        left: 5px;
+    }
+    .receipt_window_texts{
+        padding-left: 20px;;
+    }
+    .window_span{
+        font-size: 10px;
+        line-height: 12px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+@media(max-width:450px){
+    
+    .boxend_img1{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .cata_title{
+        margin-top: 80px;
+        font-size: 28px;
+    }
+    .cata_link{
+        font-size: 15px;
+        height: 48px;
+    }
+    .cata_text{
+        height: 90px;
+        width: 100%;
+    }
+    .back{
+        padding-bottom: 40px;
+    }
+    .sectiontwo_title{
+        font-size: 25px;
+        padding-top: 35px;
+    }
+    .section_3_title{
+        font-size: 25px;
+        padding-top: 35px;
+    }
+    .boxend_img{
+        width: 100%;
+        height: 100%;
+    }
+    .boxend_titles{
+        line-height: 40px;
+        font-size: 26px;
+    }
+    .boxend_texts{
+        line-height: 25px;
+        width: 100%;
+        text-align: justify;
+    }
+    .boxend_btn{
+        width: 80%;
+        margin: auto;
+    }
+    .boxend_item{
+        padding: 20px;
+    }
+    .boxend_item_2{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        width: 100%;
+    }
+   
+    
+}
+@media(max-width:370px){
+     .receipt_window{
+       width: 300px;
+       height: 190px;
+       padding: 20px;
+       justify-content: space-between;
+    }
+    .receipt_window_texts{
+        padding-left: 3px;
+    }
+    .section-6{
+        padding-bottom: 70px;
+    }
+    .cata_link{
+        font-size: 14px;
+    }
+    .boxend_titles{
+        line-height: 35px;
+    }
+    .boxend_item{
+        padding: 15px;
+    }
+}
+@media(max-width:325px){
+    .petshopp{
+        display: none;
+    }
+}
+

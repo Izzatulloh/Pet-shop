@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "Monserat";
+    src: url(../fonts/Montserrat-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: "Monserat";
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: "Monserat";
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: "Monserat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Monserat";
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Quicksand";
+    src: url(../fonts/Quicksand-Bold.ttf);
+    font-weight: 700;
+}
