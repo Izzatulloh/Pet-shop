@@ -17,30 +17,30 @@ p {
 }
 
 *::-webkit-scrollbar {
-    width: 5px;
-    height: 3px;
+    width: 10px;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.568);
+    background: linear-gradient(to bottom, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    border-radius: 30px
 }
 
 :root {
-    --linear: linear-gradient(124.13deg, #F4CB38 10.97%, #F4A938 77.98%);
     --yellow: #F4CB38;
+    --yellow2: #F4A938;
+    --green: seagreen;
     --white: #FFFFFF;
     --black: #2D2D2D;
-    --receiptwindow: #F5B939;
     --leneartwo: linear-gradient(124.13deg, #f43838 10.97%, #f44538 77.98%);
-    --seagreen: seagreen;
+
 }
 
 .header {
-    background: linear-gradient(124.13deg, #F4CB38 10.97%, #F4A938 77.98%);
+    background: linear-gradient(124.13deg, var(--yellow) 10.97%, var(--yellow2) 77.98%);
     overflow: hidden;
     position: relative;
     padding-bottom: 152px;
-
+    transition: 0.5s;
 
 }
 
@@ -62,7 +62,7 @@ p {
 .receipt_window {
     width: 715px;
     height: 474px;
-    background-color: var(--receiptwindow);
+    background-color: var(--yellow);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -281,96 +281,29 @@ p {
     justify-content: center;
     z-index: 10;
     position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    border-radius: 20px;
 }
 
-.nav_user-icon {
-    transform: rotate(0);
+.ball {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: var(--green);
+    border-radius: 50%;
+    left: 5px;
     transition: 0.5s;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
 
-.nav_user-icon.active {
-    transform: rotate(180deg);
-    transition: 0.5s;
+.nav_user.active .ball {
+    transform: translateX(-100%);
+    left: calc(100% - 5px);
+
 }
 
-.navuser_span.active {
-    transform: rotateY(360deg);
-    transition: 1s;
-    opacity: 1;
-    position: absolute;
-}
-
-.navuser_span {
-    position: absolute;
-    top: 50px;
-    transition: 1s;
-}
-
-.navuser_span_two {
-    position: absolute;
-    top: 100px;
-    transition: 1s;
-}
-
-.navuser_span_two.active {
-    transform: rotateY(360deg);
-    transition: 1s;
-    opacity: 1;
-    position: absolute;
-}
-
-
-.navuser_span {
-    position: absolute;
-    width: 80px;
-    height: 40px;
-    background-color: var(--black);
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    z-index: -1;
-    text-align: center;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.514);
-    text-align: center;
-    font-family: "Monserat";
-    font-weight: 700;
-    text-transform: uppercase;
-    color: rgb(27, 167, 27);
-    font-size: 16px;
-    text-shadow: 10px 10px 30px rgba(46, 139, 86, 0.575)
-}
-
-.navuser_span_two {
-    position: absolute;
-    width: 80px;
-    height: 40px;
-    background-color: var(--black);
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    z-index: -1;
-    text-align: center;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.514);
-    text-align: center;
-    font-family: "Monserat";
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #F4CB38;
-    font-size: 14px;
-    text-shadow: 10px 10px 30px rgba(255, 255, 0, 0.541);
-}
-
-.navuser_span:hover {
-    color: rgb(94, 250, 3);
-}
-
-.navuser_span_two:hover {
-    color: yellow;
-}
 
 .nav_user i {
     font-size: 17px;
@@ -394,7 +327,6 @@ p {
 
 .list {
     list-style: none;
-    position: absolute;
     position: fixed;
     width: 330px;
     height: 100vh;
@@ -443,7 +375,7 @@ p {
 }
 
 .nav_link:hover {
-    color: var(--yellow) !important;
+    color: var(--yellow);
 }
 
 .labelbtn {
@@ -819,7 +751,7 @@ h2 {
 }
 
 .item:hover a {
-    border-bottom: 3px solid #F4CB38;
+    border-bottom: 3px solid var(--yellow);
 }
 
 .link {

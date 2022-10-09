@@ -77,39 +77,30 @@ window.addEventListener('scroll', function scroll() {
 
 })
 
-const navuser = document.querySelector('.nav_user-icon'),
+const navUser = document.querySelector('.nav_user'),
     icon = document.querySelector('.icons'),
     navuserspan = document.querySelector('.navuser_span'),
     navuserpanTwo = document.querySelector('.navuser_span_two'),
     root = document.querySelector(':root')
 
-navuser.addEventListener('click', function () {
-    navuser.classList.toggle('active')
-    navuserspan.classList.toggle('active')
-    navuserpanTwo.classList.toggle('active')
+navUser.addEventListener('click', function () {
+    navUser.classList.toggle('active')
+    navUser.classList.forEach(item => {
+        if (item == "active") {
+            root.style.setProperty('--yellow', "seagreen")
+            root.style.setProperty('--green', "#F4CB38")
+            root.style.setProperty('--yellow2', "seagreen")
+            root.style.setProperty('--black', 'white')
+        } else {
+            root.style.setProperty('--yellow', "#F4CB38")
+            root.style.setProperty('--yellow2', "#F4A938")
+            root.style.setProperty('--black', '#2D2D2D')
+            root.style.setProperty('--green', "seagreen")
+        }
+    })
 })
 
 
-
-
-const headers = document.querySelector('.header')
-
-navuserspan.addEventListener('click', function ddd() {
-    root.style.setProperty('--yellow', "seagreen")
-    headers.style.background = "seagreen"
-    root.style.setProperty('--black', 'white')
-    receiptWindow.style.setProperty('--receiptwindow', "seagreen")
-
-})
-
-navuserpanTwo.addEventListener('click', function () {
-    root.style.setProperty('--yellow', "#F4CB38")
-    headers.style.background = "linear-gradient(124.13deg, #F4CB38 10.97%, #F4A938 77.98%)"
-    root.style.setProperty('--black', '#2D2D2D')
-    receiptWindow.style.setProperty('--receiptwindow', "#F5B939")
-
-
-})
 
 
 const sectiontwotitle = document.querySelector('.sectiontwo_title'),
@@ -163,4 +154,3 @@ window.addEventListener('scroll', function () {
         })
     }
 })
-
